@@ -3,7 +3,7 @@ const planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uran
 planets.forEach(planet=>{
     // console.log(planet)
 
-    document.querySelector("#planets").innerHTML+=`<p>${planet}</p>`
+    // document.querySelector("#planets").innerHTML+=`<p>${planet}</p>`
 })
 
 
@@ -25,9 +25,10 @@ const properArray = planets.map(currentPlanet=>{let firstLetter = currentPlanet.
     let restOfString = currentPlanet.slice(1)
     let properPlanet = firstLetter+restOfString
     return properPlanet
-    console.log(properPlanet)})
+    // console.log(properPlanet)
+})
 
-    console.log(properArray)
+    // console.log(properArray)
 
 
 
@@ -42,4 +43,4 @@ const properArray = planets.map(currentPlanet=>{let firstLetter = currentPlanet.
 const planetE = planets.filter(planet => planet.includes("e")
 
 )
-console.log(planetE)
+// console.log(planetE)
